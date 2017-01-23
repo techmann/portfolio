@@ -1,0 +1,23 @@
+
+
+@media only screen and (max-width: 1023px) {
+
+
+}
+
+@media only screen and (max-width: 639px) {
+
+	.desc-side p {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 8%;
+}
+
+#five img {
+    display: block;
+    margin: auto;
+    float: none;
+    margin-bottom: 8%;
+}
+
+}

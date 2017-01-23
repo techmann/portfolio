@@ -1,0 +1,48 @@
+
+
+@media only screen and (max-width: 1023px) {
+
+	.link img {
+		width: 40%;
+		margin-top: 10%;
+		margin-bottom: 5%;
+	}
+
+	#top-img img {
+		margin-top: 15%;
+		margin-bottom: 15%;
+	}
+
+	.relay-bg {
+    background-position: 40% 0%;
+	}
+
+}
+
+@media only screen and (max-width: 639px) {
+
+	.link img {
+		width: 60%;
+		margin-top: 10%;
+		margin-bottom: 5%;
+	}
+
+	.relay-bg {
+    background-position: 45% 0%;
+	}
+
+	.pers img {
+		margin-bottom: 8%;
+	}
+
+	.early p {
+		font-size: 14px;
+	}
+
+	.title p, .title1 p, .title-1 p, .title-1-2 p, 
+	.title-3 p, .title-4 p {
+    font-size: 30;
+	}
+
+
+}

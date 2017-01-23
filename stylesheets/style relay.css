@@ -1,0 +1,380 @@
+
+a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #6E6E6E;
+}
+
+label:hover {
+    color: #6E6E6E;
+}
+
+.title, .title1 {
+    margin-top: 5%;
+}
+
+.title p, .title1 p, .title-1 p, .title-1-2 p, 
+.title-3 p, .title-4 p {
+    font-size: 34;
+    font-weight: 500;
+    text-align: center;
+}
+
+.title p, .title1 p {
+    color: white;
+}
+
+.title-1 p {
+   color: #5F5F5F;
+}
+
+.title, .title-1-2 img {
+    display: block;
+    margin: auto;
+}
+
+#cont {
+    resize: both;
+}
+
+.one img {
+    display: block;
+    margin: auto;
+    width: 75%;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+#top-img img {
+    display: block;
+    margin: auto;
+    margin-bottom: 20%;
+    margin-top: 20%;
+}
+
+.pers img {
+    border-radius: 3px;
+    margin-top: 3%;
+}
+
+.wrapper-1 {
+    background: #1CD8D2;
+    background: -webkit-linear-gradient(to left, #93EDC7, #1CD8D2);
+    background: linear-gradient(to left, #93EDC7, #1CD8D2);
+}
+
+.wrap {
+/*    background: #1CD8D2;
+    background: -webkit-linear-gradient(to left, #93EDC7, #1CD8D2);
+    background: linear-gradient(to left, #93EDC7, #1CD8D2);
+    border-radius: 30px;
+    padding: 1% 5% 1% 5%;*/
+    margin-top: 5%;
+}
+
+.wrap img {
+    display: inline-block;
+    width: 70px;
+}
+
+
+
+.role p, .desc p, .desc-5 p, .desc-3 a, .desc-1 p,
+.desc-4 p  {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    margin: none;
+}
+
+.desc p {
+    text-align: left;
+    color: white;
+    padding-bottom: 5%;
+}
+
+.desc-5 p {
+    text-align: center;
+    color: white;
+    display: inline-block;
+    float: right;
+}
+
+span p {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    margin-top: 0;
+}
+
+#cont {
+  height: 700px;
+}
+
+.title img {
+    display: block;
+    margin: auto;
+}
+
+iframe {
+  transform-origin: top;
+  -moz-transform-origin: top;
+
+  display: block;
+  margin: auto;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  height: 960px;
+}
+
+.desc-1 p {
+    text-align: left;
+    color: #5F5F5F;
+    padding-bottom: 5%;
+}
+
+.wrapper-2 {
+    background: #F4F3FD;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+.wrapper-3 {
+    background: #007CE4;
+    background: -webkit-linear-gradient(to left, #00A8CC, #007CE4);
+    background: linear-gradient(to left, #00A8CC, #007CE4);
+}
+
+.wrapper-4 {
+    background: white;
+    padding-bottom: 5%;
+}
+
+.desc-3 a {
+    text-align: left;
+    color: #5F5F5F;
+}
+
+.title-3 p {
+    text-align: center;
+    color: #1CD8D2;
+    margin-top: 8%;
+    margin-bottom: 2%;
+
+    background: -webkit-linear-gradient(#93EDC7, #1CD8D2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.desc-3 p {
+    font-weight: 400;
+    text-align: left;
+    color: #5F5F5F;
+}
+
+.pers {
+    margin-top: 2%;
+}
+
+.desc-3 img {
+    display: block;
+    margin: auto;
+}
+
+.title-3-1 p {
+    font-size: 24;
+    font-weight: 400;
+    text-align: center;
+    color: #5F5F5F;
+}
+
+.space img {
+    margin-bottom: 5%;
+}
+
+#test img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-top: 10%;
+}
+
+.relay-bg {
+    background-image: url(../images/relay_pers.png);
+    background-size: cover;
+    height: 50%;
+}
+
+.early p {
+    text-align: center;
+    padding-top: 4%;
+    margin-bottom: 15%;
+}
+
+.early img {
+    margin: auto;
+    display: block;
+}
+
+.early-1 img {
+    border-radius: 3px;
+    margin-top: 8%;
+    padding: 5%;
+    display: block;
+    margin: auto;
+}
+
+.early-1 p {
+    text-align: center;
+    padding-top: 5%;
+    color: white;
+}
+
+.early-1 {
+    margin-bottom: 3%;
+}
+
+.swift img {
+    width: 35%;
+    display: block;
+    margin: auto;
+    margin-bottom: 15%;
+}
+
+.swift {
+    background: #FF0028;
+    background: -webkit-linear-gradient(#FEAC3C, #FF0028);
+    background: linear-gradient(#FEAC3C, #FF0028);
+
+    background-image: url(../images/swift-bg.png);
+    background-size: cover;
+}
+
+.swift-img img {
+    display: block;
+    margin: auto;
+    margin-top: 15%;
+}
+
+.title-4 {
+    text-align: left;
+    font-size: 25px;
+}
+
+#three {
+    border-radius: 3px;
+}
+
+.title-4 p {
+    text-align: center;
+    color: #5F5F5F;
+    margin-top: 15%;
+    margin-bottom: 0;
+}
+
+#four img {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.link p {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.link a {
+    background-color: transparent;
+}
+
+.link img {
+    display: block;
+    margin: auto;
+    width: 75%;
+}
+
+.link img:hover {
+    transform: scale(1.1);
+}
+
+.link-2 img:hover {
+    transform: scale(1.1);
+}
+
+.link-2 a {
+    background-color: transparent;
+}
+
+.link-2 img {
+    display: block;
+    margin: auto;
+    width: 35%;
+}
+
+.link-2 p {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.button-home-wrapper {
+    width: 50%;
+    margin-top: 30px;
+}
+
+.break {
+    padding-bottom: 5%;
+}
+
+.desc-4 p {
+    text-align: left;
+    color: #5F5F5F;
+    padding: 4%;
+}
+
+.button-home {
+    border: solid white;
+    border-radius: 3px;
+    padding: 15px 40px 15px 40px;
+    margin-top: 20px;
+    width: 50%;
+    text-align: center;
+    border-width: 2px;
+}
+
+.button-home-wrapper a {
+    font-size: 18px;
+    color: white;
+}
+
+.button-home-wrapper a:hover {
+    background-color: white;
+}
+
+#audrey-btn a:hover {
+    color: #F94C86;
+}
+
+#relay-btn a:hover {
+    color: #1CD8D2;
+}
+
+
+
+
+
+
+
+
+
+
+

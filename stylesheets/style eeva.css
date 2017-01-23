@@ -1,0 +1,439 @@
+
+
+.nav a:hover {
+    color: #00A5D4;
+}
+
+label:hover {
+    color: #00A5D4;
+}
+
+
+.setting-wrapper {
+    background-image: url(../images/eeva_setting.png);
+    background-size: cover;
+    background-position: 50% 30%;
+    padding-bottom: 3%;
+    margin-top: 3%;
+}
+
+.cover-1 {
+    background-image: url(../images/va-bg.png);
+    background-size: cover;
+}
+
+.title {
+    margin-top: 15%;
+}
+
+#role {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.title p {
+    font-size: 34;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    margin-bottom: 8%;
+}
+
+#role p {
+    font-size: 28px;
+}
+
+.title img {
+    display: block;
+    margin: auto;
+}
+
+.one img {
+    display: block;
+    margin: auto;
+    width: 75%;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.wrapper-1 {
+    background: #7F7087;
+    background: -webkit-linear-gradient(to left, #7F7087, #063255);
+    background: linear-gradient(to left, #7F7087, #063255);
+}
+
+
+.role p {
+    font-size: 18px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    margin: none;
+
+}
+
+.desc p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.desc-side p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+    padding-left: 12%;
+    padding-right: 0%;
+    margin-top: 0;
+}
+
+.desc-vid p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+    padding: 5%;
+}
+
+.desc-1 p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+    padding-bottom: 5%;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.desc-3 p {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    color: #F3F3F3;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 1%;
+}
+
+.bottom {
+    padding-bottom: 4%;
+}
+
+.wrapper-4 {
+    background-color: #00A5D4;
+}
+
+.desc-4 p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    color: #5F5F5F;
+    margin-bottom: 3%;
+    text-align: left;
+    margin-top: 8%;
+}
+
+.desc-4 li {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    color: #5F5F5F;
+    text-align: left;
+}
+
+.desc-5 p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    color: #5F5F5F;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.desc-6 p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    color: #5F5F5F;
+    margin-bottom: 3%;
+    text-align: left;
+}
+
+.desc-7 p {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #063255;
+    text-align: center;
+    font-style: italic;
+}
+
+.title-2 p {
+    font-size: 30;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.title-2-1 p {
+    font-size: 30;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.title-2-2 p {
+    font-size: 30;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.title-8 p {
+    font-size: 30;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.title-7 p {
+    font-size: 30;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 7%;
+    margin-bottom: 1%;
+}
+
+.title-5 p {
+    color: #5F5F5F;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    margin-top: 7%;
+    font-weight: 700;
+}
+
+.title-6 p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    margin-top: 7%;
+    font-weight: 700;
+}
+
+.title-2 img {
+    width: 5%;
+    display: block;
+    margin: auto;
+    margin-top: 7%;
+}
+
+#three img {
+    margin: auto;
+    display: none;
+    border-radius: 3px;
+}
+
+.bar {
+    padding-top: 3%;
+}
+
+.bar img {
+    display: block;
+    margin: auto;
+}
+
+#three {
+    background-image: url(../images/victor.png);
+    background-size: cover;
+}
+
+.wrapper-2 {
+    background-color: #063255;
+    padding-bottom: 4%;
+    padding-top: 1%;
+}
+
+
+.link img:hover {
+    transform: scale(1.1);
+}
+
+.link-2 img:hover {
+    transform: scale(1.1);
+}
+
+.link-2 a {
+    background-color: transparent;
+}
+
+.rect {
+    background-color: #F3F3F3;
+    margin: 1%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    border-radius: 3px;
+}
+
+.row-h {
+
+}
+
+.rect p {
+    color: #303030;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.wrapper-3 {
+    background-color: white;
+    padding-bottom: 5%;
+}
+
+.title-3 p {
+    font-size: 30;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #5F5F5F;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+.wrapper-5 {
+    background-color: #063255;
+}
+
+.circle img {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.eeva img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.wrapper-mood {
+    margin-top: 5%;
+}
+
+.wrapper-mood img {
+    width: 100%;
+}
+
+.wrapper-mood p {
+    text-align: center;
+    font-size: 26;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+#four img, #five img {
+    width: 75%;
+    display: block;
+    margin: auto;
+}
+
+#five img {
+    width: 75%;
+    float: right;
+}
+
+#pics img {
+    margin-bottom: 10%;
+}
+
+.wrapper-mood {
+    padding-top: 22%;
+    padding-bottom: 22%;
+    background-image: url(../images/va-moodboard.png);
+    background-size: cover;
+    background-position: 0 18%;
+}
+
+[aos="fade-up"] {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+[aos="fade-up"].aos-animate {
+  opacity: 1;
+}
+
+#center-1 p {
+    text-align: center;
+}
+
+.phone-overlay {
+    background-image: url(https://dl.dropboxusercontent.com/s/tx7bgz8nnveuvs8/phone.png);
+    background-size: 300px 494px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 494px;
+    margin: 45 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.phone {
+    width: 202px;
+    height: 380px;
+}
+
+.phone video {
+    width: 202px;
+}
+
+
+
+
+
+
+
+
+

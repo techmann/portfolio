@@ -1,0 +1,23 @@
+
+
+@media only screen and (max-width: 1023px) {
+
+	
+
+}
+
+@media only screen and (max-width: 639px) {
+
+	.img-h img {
+		margin-bottom: 15%;
+	}
+
+	.title img {
+		width: 60%;
+	}
+
+	#cent img {
+		margin-top: 10%;
+	}
+
+}
