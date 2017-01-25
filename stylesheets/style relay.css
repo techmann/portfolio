@@ -105,7 +105,7 @@ label:hover {
     float: right;
 }
 
-span p {
+.wrap span p {
     font-size: 18px;
     font-weight: 400;
     text-align: center;
@@ -232,14 +232,20 @@ iframe {
     margin: auto;
 }
 
+.early-2 img {
+    border-radius: 3px;
+    padding: 5%;
+    display: block;
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 15%;
+}
+
 .early-1 p {
     text-align: center;
     padding-top: 5%;
     color: white;
-}
-
-.early-1 {
-    margin-bottom: 3%;
+    margin-bottom: 15%;
 }
 
 .swift img {

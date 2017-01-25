@@ -70,11 +70,11 @@ label:hover {
 
 .role p {
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
-    color: #D7FFFF;
     margin: none;
     margin-bottom: 5%;
+    color: white;
 }
 
 .desc p {
@@ -146,6 +146,10 @@ label:hover {
     text-align: center;
 }
 
+#des_pic img {
+    border-radius: 3px;
+}
+
 #two img {
     margin-left: 3%;
 }
@@ -194,6 +198,11 @@ label:hover {
     padding-bottom: 4%;
 }
 
+.wrapper-6 {
+    background: #F4F3FD;
+    padding-bottom: 4%;
+}
+
 #des_pic {
     margin-bottom: 8%;
 }
@@ -206,6 +215,21 @@ label:hover {
     margin-bottom: 8%;
     margin-top: 2%;
 }
+
+.live-t p {
+    color: #5F5F5F;
+    font-size: 34px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.live p {
+    font-size: 18px;
+    color: #5F5F5F;
+    font-weight: 400;
+    padding-left: 5%;
+}
+
 
 .wrapper-5 {
     background-image: url(../images/audrey_bg.png);
