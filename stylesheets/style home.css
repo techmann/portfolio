@@ -6,7 +6,7 @@ body {
 }
 
 body p {
-    font-size: 20px;
+    font-size: 18px;
     color: #333;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -22,11 +22,11 @@ a {
     margin-bottom: 5%;
 }
 
-.home-text, .options {
+/*.home-text, .options {
     width: 50%;
     margin-left: 10%;
     margin-right: 5%;
-}
+}*/
 
 .home-text p {
     margin: 0;
@@ -34,7 +34,8 @@ a {
 }
 
 .options {
-    margin-top: 5%;
+    margin-top: 30px;
+    margin-bottom: 80px;
 }
 
 .options p {
@@ -45,9 +46,29 @@ a {
     padding-bottom: 0%;
 }
 
-/*.options a:hover {
-    text-decoration: underline;
-}*/
+#brands-bg {
+/*    margin-left: 10%;*/
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+#brands-bg p {
+    margin-bottom: 0;
+}
+
+#brands-bg img {
+    display: inline-block;
+    width: 12%;
+    opacity: 0.3;
+    /*margin: 0 auto;*/
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#va img {
+    width: 25%;
+}
 
 .options a {
     position: relative;
@@ -83,7 +104,7 @@ a {
   bottom: 0;
   left: 0;
   width: 0%;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #bbb;
   transition: 0.4s;
 }
 
@@ -92,17 +113,23 @@ a {
 }
 
 .nav-wrapper {
-    width: 50%;
-    margin-left: 10%;
-    margin-right: 5%;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
-#title {
-    padding-left: 3px;
+.nav a {
+    color: #8D8D8D;
+    font-weight: 300;
+}
+
+.nav a:hover {
+    color: #1CD8D2;
+    font-weight: 300;
 }
 
 #title-1 {
-    padding-left: 3px;
+    padding-top: 30px;
 }
 
 #title p {
@@ -110,7 +137,7 @@ a {
     font-weight: 300;
     color: #333;
     padding: 1%;
-    margin-top: 10%;
+    margin-top: 50px;
     margin-bottom: 0;
 }
 
@@ -150,8 +177,8 @@ a {
     margin-top: 15%;
 }
 
-.indent {
-
+#vr-bg {
+    background-color: gray;
 }
 
 .down {
@@ -260,20 +287,6 @@ a {
 
 /*end sheet*/
 }
-
-@media only screen and (min-width: 768px) {
-  .cd-top {
-    right: 20px;
-    bottom: 20px;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .cd-top {
-    height: 60px;
-    width: 60px;
-    right: 30px;
-    bottom: 30px;
-  }
 
 
 

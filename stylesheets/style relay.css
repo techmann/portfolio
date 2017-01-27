@@ -203,7 +203,7 @@ iframe {
 #test img {
     display: block;
     margin: auto;
-    width: 50%;
+    width: 30%;
     margin-top: 10%;
 }
 
@@ -283,7 +283,7 @@ iframe {
     text-align: center;
     color: #5F5F5F;
     margin-top: 15%;
-    margin-bottom: 0;
+    margin-bottom: 3%;
 }
 
 #four img {

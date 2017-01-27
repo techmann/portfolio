@@ -28,15 +28,12 @@
     	margin-right: 5%;
 	}
 
-	.home-text, .options {
-	    width: 70%;
-	    margin-left: 10%;
-	    margin-right: 10%;
-	    padding-right: 0%;
+	#brands-bg img {
+		width: 14%
 	}
 
-	.home-wrapper {
-    	height: 375px;
+	#va img {
+		width: 22%
 	}
 
 
@@ -92,11 +89,14 @@
     	height: 600px;
 	}
 
-	.home-text, .options {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-right: 0%;
+	#brands-bg img {
+		width: 28%;
+		margin-bottom: 20px;
+		margin-top: 10px;
+	}
+
+	#va img {
+		width: 38%
 	}
 
 }

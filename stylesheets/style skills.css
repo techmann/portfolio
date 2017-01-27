@@ -1,0 +1,153 @@
+
+body {
+    display: block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body p {
+    font-size: 18px;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding: 1%;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+label {
+  line-height: 80px;
+}
+
+.title {
+  display: block;
+}
+
+.skills p {
+  font-weight: 400;
+  font-size: 30px;
+    margin-bottom: 0;
+}
+
+.title {
+  padding-top: 30px;
+}
+
+#top {
+  padding-top: 0;
+}
+
+.title p {
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 0;
+  display: block;
+  width: 100;
+}
+
+.title li {
+  list-style: none;
+  font-weight: 300;
+  display: inline-block;
+  float: left;
+  margin-right: 5px;
+  padding: 5px;
+  border: solid rgba(0, 0, 0, .1);
+  border-width: 1px;
+  margin-bottom: 10px;
+  margin-left: 1%;
+}
+
+.wrapper-1 {
+    background-image: url(../images/skyline.png);
+    background-size: cover;
+    height: 100%;
+    overflow: scroll;
+    background-repeat: no-repeat;
+    background-position: 0 0%;
+}
+
+.nav-links a, .nav-links label {
+  color: #8D8D8D;
+}
+
+.button-home-wrapper {
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.button-home {
+    border: solid #333;
+    border-radius: 3px;
+    padding: 15px 40px;
+    text-align: center;
+    border-width: 2px;
+}
+
+.button-home-wrapper a {
+    font-size: 18px;
+    color: #333;
+}
+
+.button-home-wrapper a:hover {
+    background-color: #333;
+}
+
+#btn a:hover {
+    color: white;
+}
+
+
+[aos="fade-up"] {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+[aos="fade-up"].aos-animate {
+  opacity: 1;
+}
+
+[aos="fade-down"] {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+[aos="fade-down"].aos-animate {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1224px) { /* Specific to this particular image */
+    .wrapper-1 {
+    background-position: 60% 150px;
+  }
+
+  #btn {
+    margin-top: 70px;
+  }
+
+}
+
+@media screen and (max-width: 800px) { /* Specific to this particular image */
+    .wrapper-1 {
+    background-position: 60% 120px;
+  }
+
+
+/*end sheet*/
+}
+
+
+
+
+
+
+
+
+
