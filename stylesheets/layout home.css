@@ -36,6 +36,13 @@
 		width: 22%
 	}
 
+	.copyright p {
+		margin-top: 10px;
+	}
+
+	#vr-bg {
+    height: 400px;
+}
 
 }
 
@@ -97,6 +104,10 @@
 
 	#va img {
 		width: 38%
+	}
+
+	#vr-bg {
+    height: 500px;
 	}
 
 }

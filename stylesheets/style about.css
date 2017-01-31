@@ -19,6 +19,11 @@ a {
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
     font-weight: 300;
+    color: #333;
+}
+
+.desc a {
+  text-decoration: underline;
 }
 
 nav {
@@ -84,9 +89,8 @@ nav p {
 .wrap-about {
     background-image: url(../images/about-bg.png);
     background-size: cover;
-    height: 100%;
     position: absolute;
-    overflow: scroll;
+    background-attachment: fixed;
 }
 
 .more-projects {

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Brian Eckmann</title>
+    <meta name="description" content="Aincraft">
+    <script src="https://aframe.io/releases/0.4.0/aframe.min.js"></script>
+    <script src="components/controller-cursor.js"></script>
+    <script src="components/intersection-spawn.js"></script>
+    <script src="components/random-color.js"></script>
+    <script src="components/snap.js"></script>
+    <script src="components/aframe-teleport-controls.min.js"></script>
+
+    <link rel="stylesheet" href="stylesheets/foundation.css" />
+    <link rel="stylesheet" href="stylesheets/style all.css" />
+    <link rel="stylesheet" href="stylesheets/style webvr.css" />
+
+  </head>
+  <body>
+
+<input type="checkbox" name="toggle" id="toggle" />
+
+<div class="project-menu">
+<div id="wrapper">
+  <div id="top-line">
+    <p id="line-h">Selected Projects</p>
+    <label for="toggle"><img src="images/close.png"></label>
+  </div>
+  <div id="projects">
+  <div class="project-thumb">
+    <a href="../../../../audrey.html">
+    <img src="images/audrey-cover.png">
+    <p>Digital health patient portal</p>
+    </a>
+  </div>
+  <div class="project-thumb">
+  <a href="../../../../relay.html">
+    <img src="images/relay-cover.png">
+    <p>iOS messaging app to share content</p>
+    </a>
+  </div>
+  <div class="project-thumb">
+  <a href="../../../../eeva.html">
+    <img src="images/eeva-cover.png">
+    <p>AI companion for veterans</p>
+    </a>
+  </div>
+  <div class="project-thumb">
+  <a href="../../../../claire.html">
+    <img src="images/claire-cover.png">
+    <p>Talent experience in 2020</p>
+    </a>
+  </div>
+  </div>
+</div>
+</div>
+
+<div class="content-all">
+
+<!-- NAV BAR -->
+  <div class="nav" data-aos="fade-down">
+    <div class="nav-wrapper">
+        <div id="logo">
+          <a href="../../../../index.html"><img src="../images/BE.png"></a>
+        </div>
+        <div class="nav-links">
+            <li><a href="../../../../about.html">About Me</a></li>
+            <li><label for="toggle">Projects</label></li>
+            <li><a href="../../../../skills.html">Resume/Skills</a></li>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="back-bar">
+        <a href="../index.html">Back to playground</a>
+    </div>
+        <div id="dir">
+        <p>Click anywhere to make a block appear and build something!<br> You can change colors by clicking on the cube again. <br>This is called aincraft, included with the K-frame package.
+    </div>
+
+    <a-scene>
+      <a-assets>
+        <img id="groundTexture" src="img/floor.jpg">
+        <img id="skyTexture" src="img/sky.jpg">
+        <a-mixin id="voxel"
+           geometry="primitive: box; height: 0.5; width: 0.5; depth: 0.5"
+           material="shader: standard"
+           random-color
+           snap="offset: 0.25 0.25 0.25; snap: 0.5 0.5 0.5"
+        ></a-mixin>
+      </a-assets>
+
+      <a-sky id="bg" height="2048" radius="30" src="#skyTexture" theta-length="90"
+             width="2048"></a-sky>
+
+      <a-cylinder id="ground" src="#groundTexture" radius="32" height="0.1"></a-cylinder>
+
+      <!-- Hands. -->
+      <a-entity id="teleHand"
+        hand-controls="left"
+        teleport-controls="type: parabolic; collisionEntities: [mixin='voxel'], #ground"
+      ></a-entity>
+
+      <a-entity id="blockHand"
+        hand-controls="right"
+        controller-cursor
+        intersection-spawn="event: click; mixin: voxel"
+      ></a-entity>
+
+      <!-- Camera. -->
+      <a-camera>
+        <a-cursor
+          intersection-spawn="event: click; mixin: voxel"
+        ></a-cursor>
+      </a-camera>
+    </a-scene>
+
+  </div>
+
+  </body>
+</html>

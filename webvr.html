@@ -7,7 +7,7 @@
 <!--     <link rel="stylesheet" href="stylesheets/normalize.css" /> -->
     <link rel="stylesheet" href="stylesheets/foundation.css" />
     <link rel="stylesheet" href="stylesheets/style all.css" />
-    <link rel="stylesheet" href="stylesheets/style about.css" />
+    <link rel="stylesheet" href="stylesheets/style webvr.css" />
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -21,7 +21,7 @@
 
     <script src="js/modernizr.js"></script> <!-- Modernizr -->
 
-    <link rel="stylesheet" id="font-awesome-css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen"></style>
+    <link rel="stylesheet" id="font-awesome-css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen"></style>
 
     <script src="js/pace.js"></script>
     <link href="stylesheets/pace-theme-flat-top.tmpl.css" rel="stylesheet" />
@@ -46,6 +46,9 @@
 	<meta name="msapplication-square150x150logo" content="ico/mstile-150x150.png" />
 	<meta name="msapplication-wide310x150logo" content="ico/mstile-310x150.png" />
 	<meta name="msapplication-square310x310logo" content="ico/mstile-310x310.png" />
+
+
+</head>
 
 <body aos-duration="300">
 
@@ -87,54 +90,42 @@
 </div>
 
 <div class="content-all">
-<div class="wrap-about">
 
-	<nav>
-      <div class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="skills.html">Resume/Skills</a></li>
-        <li><label for="toggle">Projects</label></li>
-      </div>
-    </nav>
-	<div class="title">
-    <p>Hello from Seattle</p>
-    </div>
+<!-- NAV BAR -->
+	<div class="nav" data-aos="fade-down">
+		<div class="nav-wrapper">
+	      <div id="logo">
+	    		<a href="index.html"><img src="images/BE.png"></a>
+	   	  </div>
+	      <div class="nav-links">
+		        <li><a href="about.html">About Me</a></li>
+		        <li><label for="toggle">Projects</label></li>
+		        <li><a href="skills.html">Resume/Skills</a></li>
+	      </div>
 
- 	<div class="desc">
- 		<p>I’m a user experience designer with a unique background that’s shaped how I approach solving problems. I spent four years in consulting developing competencies that give me an edge other designers often don’t have. I’m trained in asking the right questions that uncover the “so what”.</p>
- 		<p>I have two sweet spots when it comes to building products: making prototypes sing and project management. Part of my methodology in creating meaningful products are prevalent such as being data-driven through research and keeping ahead of the design and technology curves. But more importantly, I do whatever it takes to enable my team members to do their best work.</p>
- 	</div>
- 	<div class="title">
- 		<p>How I got into design</p>
- 	</div>
- 	<div class="desc">
-		<p>I started my UX journey in cybersecurity, before I even knew I was emulating what UXers do. I was designing complex identity and access systems for Fortune 100 companies, which require a plethora of user requirements, testing, and insane architectural diagrams. It was less about the UI and everything about security, performance, and implementation. There was minimal focus on the users and the KPIs were risk, cost, and time to build. I realized I was in the wrong field.</p>
-		<p>I enrolled in a User Experience Design boot camp <a href="https://www.bloc.io/ux-design-bootcamp" target="_blank">BLOC</a> and worked with their <a href="https://www.bloc.io/mentors/chris-courtney" target="_blank">lead mentor</a> and industry professional over Skype to learn the fundamentals of UX/UI design. Thankfully, there were many overlaps of consulting that carried over into UX. I was already a project management ninja, data-oriented, research, and interviewing. Most importantly, I was a story teller. Clients always asked me to show and tell prior success stories. It’s how we justified the price tag.</p>
- 	</div>
- 	<div class="title">
- 		<p>My approach</p>
- 	</div>
- 	<div class="desc">
-		<p>I try to listen first for the problem before I jump into the design process. It’s easy to make something look prettier, but I care more usability. The best products are simple, and not by accident. The design process, creativity, and best practices can break down the most complex problems into achievable milestones.</p>
-		<p>There’s a time in a project to build off what already exists and there’s a time to try some new prototyping tool. I’m always looking for ways to improve processes and drive better results for the product and its users. The best products are meaningful, and knowing how to craft a meaningful experience is everything.</p>
- 	</div>
+	    </div>
+  	</div>
+ <!-- END NAV -->
+<!-- Production Version, Minified -->
+<script src="https://aframe.io/releases/0.4.0/aframe.min.js"></script>
+<!-- Development Version, Uncompressed with Source Maps -->
+<script src="https://aframe.io/releases/0.4.0/aframe.js"></script>
+<script src="build.js"></script>
 
-<div class="more-projects">
-<div class="wrapper-more-projects">
-<div id="right-side">
-<p>Don't hesitate to reach out! You can get in touch with me through
-	<a href="https://www.linkedin.com/in/brianeckmann" target="_blank">LinkedIn</a>&nbsp;or&nbsp;<span>brianeckmann@gmail.com</span></p>
-</div>
-</div>
-</div>
+<a-scene>
 
-</div>
-</div>
+  <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+  <a-box position="-1 0.5 -3" rotation="0 45 0" width="1" height="1" depth="1" color="#4CC3D9"></a-box>
+  <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+  
+<a-entity bmfont-text="text: Hello, A-Frame!; color: #BBB" position="0 0.2 -3"
+  scale="1.5 1.5 1.5"></a-entity>
 
-<div class="scroll-top-wrapper ">
-	<span class="scroll-top-inner">
-		<img src="images/uparrow-1.png">
-	</span>
+
+</a-scene>
+
+
+<!-- end content-all -->
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -160,6 +151,7 @@ $(function(){
 	});
 });
 </script>
+
 <script>
  
 $(function(){

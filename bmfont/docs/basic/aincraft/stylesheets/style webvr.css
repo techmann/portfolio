@@ -156,6 +156,19 @@ label {
   margin: 0;
 }
 
+#back-bar, #dir {
+  width: 100%;
+  text-align: center;
+}
+
+#back-bar a {
+    color: blue;
+}
+
+#dir p {
+    color: #333;
+    font-size: 16px;
+}
 
 [aos="fade-up"] {
   opacity: 0;

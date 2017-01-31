@@ -237,8 +237,12 @@ label:hover {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     color: white;
-    margin-top: 8%;
+    margin-top: 12%;
     margin-bottom: 8%;
+}
+
+#gutter {
+    margin-bottom: 5%;
 }
 
 .title-7 p {
@@ -399,6 +403,13 @@ label:hover {
 
 #pics img {
     margin-bottom: 10%;
+    border: solid 2px white;
+    border-radius: 3px;
+}
+
+iframe {
+    margin: auto;
+    display: block;
 }
 
 .wrapper-mood {
@@ -422,6 +433,30 @@ label:hover {
     text-align: center;
 }
 
+.phone-overlay-1 {
+    background-image: url(https://dl.dropboxusercontent.com/s/tx7bgz8nnveuvs8/phone.png);
+    background-size: 438px 722px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 438px;
+    height: 722px;
+    margin: 45 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.phone-1 {
+    width: 292px;
+    height: 551px;
+}
+
+.phone {
+    width: 202px;
+    height: 380px;
+}
+
 .phone-overlay {
     background-image: url(https://dl.dropboxusercontent.com/s/tx7bgz8nnveuvs8/phone.png);
     background-size: 300px 494px;
@@ -433,15 +468,9 @@ label:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1%;
 }
 
-.phone {
-    width: 202px;
-    height: 380px;
-}
-
-.phone video {
+.phone-overlay video {
     width: 202px;
 }
 

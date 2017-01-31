@@ -1,0 +1,128 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brian Eckmann</title>
+
+<!--     <link rel="stylesheet" href="stylesheets/normalize.css" /> -->
+    <link rel="stylesheet" href="../stylesheets/foundation.css" />
+    <link rel="stylesheet" href="../stylesheets/style all.css" />
+    <link rel="stylesheet" href="../stylesheets/style webvr.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i" rel="stylesheet">
+
+    <script src="../build.js"></script>
+
+    <script src="https://rawgit.com/ngokevin/aframe-layout-component/master/dist/aframe-layout-component.min.js"></script>
+<script src="https://rawgit.com/ngokevin/aframe-template-component/master/dist/aframe-template-component.min.js"></script>
+
+  <script src="index.js"></script>
+
+  </head>
+
+  <body>
+
+  <input type="checkbox" name="toggle" id="toggle" />
+
+<div class="project-menu">
+<div id="wrapper">
+  <div id="top-line">
+    <p id="line-h">Selected Projects</p>
+    <label for="toggle"><img src="images/close.png"></label>
+  </div>
+  <div id="projects">
+  <div class="project-thumb">
+    <a href="../../../audrey.html">
+    <img src="images/audrey-cover.png">
+    <p>Digital health patient portal</p>
+    </a>
+  </div>
+  <div class="project-thumb">
+  <a href="../../../relay.html">
+    <img src="images/relay-cover.png">
+    <p>iOS messaging app to share content</p>
+    </a>
+  </div>
+  <div class="project-thumb">
+  <a href="../../../eeva.html">
+    <img src="images/eeva-cover.png">
+    <p>AI companion for veterans</p>
+    </a>
+  </div>
+  <div class="project-thumb">
+  <a href="../../../claire.html">
+    <img src="images/claire-cover.png">
+    <p>Talent experience in 2020</p>
+    </a>
+  </div>
+  </div>
+</div>
+</div>
+
+<div class="content-all">
+
+<!-- NAV BAR -->
+  <div class="nav" data-aos="fade-down">
+    <div class="nav-wrapper">
+        <div id="logo">
+          <a href="../../../index.html"><img src="../images/BE.png"></a>
+        </div>
+        <div class="nav-links">
+            <li><a href="../../../about.html">About Me</a></li>
+            <li><label for="toggle">Projects</label></li>
+            <li><a href="../../../skills.html">Resume/Skills</a></li>
+        </div>
+
+      </div>
+    </div>
+
+    <a-scene>
+
+      <a-entity position="1 3.5 2">
+        <a-entity camera look-controls wasd-controls>
+        <a-cursor color="#4CC3D9"></a-cursor>
+        </a-entity>
+      </a-entity>
+
+      <a-entity position="0 4 0"
+                scale="0.5 0.5 0.5"
+                bmfont-text="color: #333; text: Welcome to my VR playground!;">
+      </a-entity>
+
+      <a-entity position="0 3.5 0"
+                scale="0.5 0.5 0.5"
+                bmfont-text="color: #333; text: I created this using A-Frame, a webVR framework built on three.js. I'm excited to keep learning how this works and expand my VR knowledge.;">
+      </a-entity>
+
+      <a-entity position="0 3.2 0"
+                scale="0.5 0.5 0.5"
+                bmfont-text="color: #333; text: Click and drag to look around, and use WASD to move.;">
+      </a-entity>
+
+      <a-entity position="3.5 3 0"
+                scale="0.5 0.5 0.5"
+                bmfont-text="color: #333; text: /\ Click me to head to block builder once I've landed.;">
+      </a-entity>
+
+      <a-entity
+               bmfont-text="color: #fff; text: Click me!;">
+        <a-box id="pink-cube" position="3.5 3.5 0" rotation="30 90 60"
+        width=".5" depth=".5" height=".5" color="#FF0077"
+        href="aincraft/index.html"></a-box>
+        <a-animation attribute="rotation"
+               dur="10000"
+               easing="ease"
+               from="0 180 0" 
+               to="0 0 360"
+               direction="alternate"></a-animation>
+      </a-entity>
+
+      <a-sky color="#F5F5F5"></a-sky>
+    </a-scene>
+
+    </div>
+
+  </body>
+</html>

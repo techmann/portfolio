@@ -179,10 +179,23 @@ a {
 
 #vr-bg {
     background-color: gray;
+    height: 375px;
 }
 
 .down {
     margin-top: 2%;
+}
+
+#hurry span {
+    font-size: 20px;
+}
+
+#hurry a {
+    border-bottom: 1px solid #C0C0C0;
+}
+
+#hurry a:hover {
+    border: none;
 }
 
 .home-wrapper img {
@@ -283,6 +296,7 @@ a {
 [aos="fade-down"].aos-animate {
   opacity: 1;
 }
+
 
 
 /*end sheet*/
