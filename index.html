@@ -71,7 +71,7 @@
 	<div class="large-10 medium-10 small-12 columns">
 	  <div class="home-text" id="title"><p>I’m <span style="color:#1CD8D2;">Brian Eckmann</span>, a Seattle based UX designer.</p></div>
 
-	  <div class="home-text" id="title-1"><p>I spent 4 years at PwC consulting for Fortune 100 companies and became a data-driven project management machine. My sweet spots are mobile design and prototyping. I’m currently immersed in learning about VR/AR so I can design experiences of the future.</p></div>
+	  <div class="home-text" id="title-1"><p>I spent 4 years at PwC consulting for Fortune 100 companies and became a data-driven project management machine. My sweet spots are mobile design and prototyping. I’m currently immersed in <a href="#vr">learning about VR/AR</a> so I can design experiences of the future.</p></div>
 
 		<div id="brands-bg">
 			<p>Companies I've consulted for:</p>
@@ -104,7 +104,7 @@
 	  				<p>Digital Health Patient Portal</p>
 	  			</div>
 	  			<div class="section-desc">
-	  				<p>audrey is an AI assistant designed to remove the barriers of managing healthcare so you can focus on being healthy.</p>
+	  				<p>An AI assistant designed to remove the barriers of managing healthcare so you can focus on being healthy.</p>
 	  			</div>
 		  		<div class="button-home-wrapper" id="audrey-btn">
 		  			<a class="button-home" href="audrey.html">View Case Study</a>
@@ -150,7 +150,7 @@
 	  				<p>AI companion for veterans</p>
 	  			</div>
 	  		<div class="section-desc">
-	  			<p>Easily share content in Safari or on the clipboard with friends separately.</p>
+	  			<p>Enabling mobile technology for those who need it most.</p>
 	  		</div>
 	  		<div class="button-home-wrapper" id="eeva-btn">
 	  			<a class="button-home"  href="eeva.html">View Case Study</a>
@@ -189,7 +189,7 @@
 	  			<div class="section-title">
 	  				<p>Virtual Playgroud</p>
 	  			</div>
-	  		<div class="section-desc">
+	  		<div class="section-desc" id="vr">
 	  			<p>My playground for practicing VR.</p>
 	  		</div>
 	  		<div class="button-home-wrapper" id="claire-btn">
@@ -258,6 +258,21 @@ function scrollToTop() {
 	offsetTop = offset.top;
 	$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
 }
+</script>
+
+<script>
+$('a[href*="#"]:not([href="#"])').click(function() {
+  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    if (target.length) {
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
+    }
+  }
+});
 </script>
 
 

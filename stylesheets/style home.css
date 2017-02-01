@@ -70,7 +70,7 @@ a {
     width: 25%;
 }
 
-.options a {
+.options a, #title-1 a {
     position: relative;
     text-decoration: none;
     color: inherit;
@@ -108,7 +108,21 @@ a {
   transition: 0.4s;
 }
 
+#title-1 a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 1px solid #bbb;
+  transition: 0.4s;
+}
+
 .options a:hover:after {
+  width: 100%;
+}
+
+#title-1 a:hover:after {
   width: 100%;
 }
 
@@ -190,12 +204,16 @@ a {
     font-size: 20px;
 }
 
-#hurry a {
+#hurry a, #title-1 a {
     border-bottom: 1px solid #C0C0C0;
 }
 
 #hurry a:hover {
     border: none;
+}
+
+.title-1 a:hover {
+  border: none;
 }
 
 .home-wrapper img {

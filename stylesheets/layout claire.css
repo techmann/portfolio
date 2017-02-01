@@ -84,4 +84,12 @@
     	height: 600px;
 	}
 
+	.title-1 p {
+		margin-bottom: 15%;
+	}
+
+	.desc-1 p {
+    margin-top: 350px;
+}
+
 }

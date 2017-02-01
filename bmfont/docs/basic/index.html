@@ -78,6 +78,47 @@
       </div>
     </div>
 
+  <script type="text/javascript">
+    AFRAME.registerComponent('cursor-listener', {
+  init: function () {
+    var COLORS = ['red', 'green', 'blue'];
+    this.el.addEventListener('click', function (evt) {
+      var randomIndex = Math.floor(Math.random() * COLORS.length);
+      this.setAttribute('material', 'color', COLORS[randomIndex]);
+    });
+  }
+});
+  </script>
+  <script type="text/javascript">
+
+    AFRAME.registerComponent('cursor-listener-1', {
+  init: function () {
+    var cube = d3.select(this);
+  cube.transition()
+      .duration(2000)
+      .ease('linear')
+      .attrTween('position', function() {
+        return d3.interpolate('0 3.5 -2', '3 2 -2')
+      })
+      .each('end', fade);  // At the end of the transition, fade() is called
+  }
+function fade () {
+  var cube = d3.select(this);
+  cube.transition()
+      .delay(1000)  // Delay before the cube returns to original position
+      .duration(2000)
+      .ease('linear')
+      .attrTween('position', function() {
+        return d3.interpolate('3 2 -2', '0 3.5 -2')
+      })
+}
+
+});
+  </script>
+
+  <script type="text/javascript">
+  </script>
+
     <a-scene>
 
       <a-entity position="1 3.5 2">
@@ -96,28 +137,52 @@
                 bmfont-text="color: #333; text: I created this using A-Frame, a webVR framework built on three.js. I'm excited to keep learning how this works and expand my VR knowledge.;">
       </a-entity>
 
-      <a-entity position="0 3.2 0"
+      <a-entity position="0 3 0"
                 scale="0.5 0.5 0.5"
-                bmfont-text="color: #333; text: Click and drag to look around, and use WASD to move.;">
+                bmfont-text="color: #333; text: Click and drag to look around, and use WASD to move. Move the blue cursor over objects and click for actions.;">
       </a-entity>
 
       <a-entity position="3.5 3 0"
                 scale="0.5 0.5 0.5"
-                bmfont-text="color: #333; text: /\ Click me to head to block builder once I've landed.;">
+                bmfont-text="color: #333; text:  Click me to head to block builder.;">
       </a-entity>
 
-      <a-entity
-               bmfont-text="color: #fff; text: Click me!;">
+      <a-entity position="-2.2 3.2 0"
+                scale="0.5 0.5 0.5"
+                bmfont-text="color: #333; text:  Click me to change my color.;">
+      </a-entity>
+
+      <a-entity>
         <a-box id="pink-cube" position="3.5 3.5 0" rotation="30 90 60"
         width=".5" depth=".5" height=".5" color="#FF0077"
         href="aincraft/index.html"></a-box>
         <a-animation attribute="rotation"
-               dur="10000"
+               dur="5000"
                easing="ease"
                from="0 180 0" 
                to="0 0 360"
                direction="alternate"></a-animation>
       </a-entity>
+
+    <a-entity>
+      <a-box cursor-listener id="blue-cube" position="-2.5 3.5 0" rotation="30 90 60"
+        width=".5" depth=".5" height=".5" color="#0082FF"></a-box>
+        <a-animation attribute="rotation"
+               dur="5000"
+               easing="ease"
+               to="0 360 0"
+               direction="alternate"></a-animation>
+    </a-entity>
+
+    <a-entity>
+      <a-sphere cursor-listener-1 id="green-circle" position="0 0 0" rotation="0 90 60"
+        width=".3" depth=".3" height=".3" color="#00FFC0"></a-sphere>
+        <a-animation attribute="rotation"
+               dur="5000"
+               easing="ease"
+               to="0 360 0"
+               direction="alternate"></a-animation>
+    </a-entity>
 
       <a-sky color="#F5F5F5"></a-sky>
     </a-scene>

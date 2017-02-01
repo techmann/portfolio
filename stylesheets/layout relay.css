@@ -48,5 +48,25 @@
 		margin-bottom: 5%;
 	}
 
+	#four img {
+		margin-bottom: 8%;
+	}
+
+	#cont {
+		width: 100%;
+		padding: 0;
+		text-align: center;
+	}
+
+	#cont iframe {
+		margin: 0 auto;
+		display: block;
+		width: 100%;
+	}
+
+	#cont iframe#iframe_win {
+		width: 415;
+		margin: 0;
+	}
 
 }

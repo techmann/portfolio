@@ -2,7 +2,7 @@
 a {
     color: white;
     font-weight: 500;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .nav a:hover {
@@ -39,6 +39,13 @@ label:hover {
 
 #cont {
     resize: both;
+    width: 100%;
+}
+
+#cont iframe {
+    transform: scale(0.7);
+    margin: 0 auto;
+    display: block;
 }
 
 .one img {
