@@ -467,6 +467,7 @@ label {
 
     .project-thumb {
         float: left;
+        margin-right: 15px;
     }
 
     .nav a, label {
