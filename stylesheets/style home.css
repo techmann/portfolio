@@ -315,7 +315,16 @@ a {
   opacity: 1;
 }
 
+#stats {
+  text-align: center;
+  width: 100%;
+  display: block;
+}
 
+#stats a {
+  color: white;
+  font-size: 14px;
+}
 
 /*end sheet*/
 }

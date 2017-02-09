@@ -1,0 +1,69 @@
+
+body {
+    display: block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body p {
+    font-size: 20px;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 1%;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+li {
+    font-size: 18px;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding: 1%;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 5%;
+    padding-right: 15%;
+}
+
+.home-text p {
+  text-align: left;
+}
+
+.stats {
+  margin-bottom: 50px;
+}
+
+#title p {
+  font-size: 44px;
+}
+
+.notes li {
+  list-style-type: disc;
+  list-style-position: inside;
+  text-indent: -2em;
+  margin-left: 2em;
+}
+
+#text p {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
