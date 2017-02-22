@@ -289,6 +289,9 @@ label {
     margin-bottom: 10px;
   }
 
+  #hide img {
+    display: none;
+  }
 
   .desc p, .desc-1 p {
     width: 100%;
@@ -365,22 +368,15 @@ label {
   .int p {
     height: 90px;
     padding: 0 50px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 
-  .title-1 {
-    margin-left: 30px;
+  .top {
+    margin-top: 40px;
+    margin-bottom: 30px;
   }
 
 
 /*end sheet*/
 }
-
-
-
-
-
-
-
-
 
