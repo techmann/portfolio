@@ -128,8 +128,8 @@ a {
 
 .desc-1 p {
   display: inline-block;
-  width: 22%;
   margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .desc img {
@@ -139,9 +139,27 @@ a {
   margin: 0 10px;
 }
 
+#img-2, #img-3, #img-4 {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#img-2 {
+  width: 22%;
+}
+
+#img-4 {
+  width: 25%;
+}
+
+#img-3 {
+  width: 44%;
+}
+
 .desc-1 img {
   margin-right: 20px;
   vertical-align: top;
+  width: 75%;
 }
 
 .data img {
@@ -316,6 +334,16 @@ label {
     margin: auto;
   }
 
+  #img-2, #img-3, #img-4 {
+    width: 100%;
+    padding: 5%;
+  }
+
+  #img-2 img, #img-3 img, #img-4 img {
+    display: block;
+    margin: auto;
+  }
+
 }
 
 @media screen and (max-width: 640px) { /* Specific to this particular image */
@@ -370,6 +398,16 @@ label {
   .top {
     margin-top: 40px;
     margin-bottom: 30px;
+  }
+
+  #img-2 {
+    padding: 8%;
+  }
+
+  #img-3 {
+    width: 100%;
+    padding: 1%;
+    margin-bottom: 15px;
   }
 
 
