@@ -144,6 +144,18 @@ label:hover {
     margin-top: 8%;
 }
 
+.desc-4 span, .desc-6 span {
+    background-color: rgba(0, 155, 212, 0.1);
+}
+
+.desc-side span {
+     background-color: rgba(0, 155, 212, 0.2);
+}
+
+.desc span {
+    background-color: rgba(0, 155, 212, 0.2);
+}
+
 .desc-4 li {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;

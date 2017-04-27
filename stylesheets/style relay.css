@@ -105,6 +105,10 @@ label:hover {
     padding-bottom: 5%;
 }
 
+.desc span {
+    background-color: rgba(80, 147, 250, 0.2);
+}
+
 .desc-5 p {
     text-align: center;
     color: white;
@@ -148,6 +152,10 @@ iframe {
     padding-bottom: 5%;
 }
 
+.desc-1 span {
+    background-color: rgba(29, 216, 210, 0.1);
+}
+
 .wrapper-2 {
     background: #F4F3FD;
     padding-bottom: 5%;
@@ -185,6 +193,10 @@ iframe {
     font-weight: 400;
     text-align: left;
     color: #5F5F5F;
+}
+
+.desc-3 span, .desc-2 span {
+    background-color: rgba(29, 216, 210, 0.2);
 }
 
 .pers {

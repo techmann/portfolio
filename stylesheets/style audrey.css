@@ -86,12 +86,24 @@ label:hover {
     padding-bottom: 5%;
 }
 
+.desc span {
+    background-color: rgba(0, 168, 204, 0.1);
+}
+
 .desc-1 p {
     font-size: 18px;
     font-weight: 400;
     text-align: left;
     color: black;
     padding-bottom: 5%;
+}
+
+.desc-1 span {
+    background-color: rgba(249, 76, 134, 0.1);
+}
+
+#no-top, #no-top-1 span {
+    background-color: rgba(249, 76, 134, 0.2);
 }
 
 .desc-2 p {
@@ -102,6 +114,10 @@ label:hover {
     padding-bottom: 5%;
     margin-top: 0px;
     padding-top: 0px;
+}
+
+.desc-2 span {
+    background-color: rgba(0, 126, 227, 0.3);
 }
 
 .desc-2 img {

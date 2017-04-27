@@ -159,6 +159,10 @@ label:hover {
     padding-top: 0;
 }
 
+.desc span, .desc-1 span, .desc-3 span {
+    background-color: rgba(199, 47, 121, 0.2);
+}
+
 .desc-1 p {
     font-size: 18px;
     font-weight: 400;
