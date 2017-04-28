@@ -102,7 +102,7 @@ label:hover {
     background-color: rgba(249, 76, 134, 0.1);
 }
 
-#no-top, #no-top-1 span {
+#no-top span, #no-top-1 span {
     background-color: rgba(249, 76, 134, 0.2);
 }
 
