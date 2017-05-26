@@ -1,0 +1,255 @@
+
+
+.nav a:hover {
+    color: #00AEC8;
+}
+
+label:hover {
+    color: #00AEC8;
+}
+
+
+.wrapper-landing {
+    background-color: #E20074;
+}
+
+.title {
+    margin-top: 5%;
+}
+
+.title p {
+    font-size: 34;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+
+#no-top p {
+    margin-top: 0;
+}
+
+#no-top-1 p {
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+#research {
+    margin-top: 8%;
+}
+
+.title-1 p {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: rgb(25, 25, 25);
+    margin-bottom: 8%;
+    margin-top: 8%;
+}
+
+.title-1 span {
+    font-size: 34;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(25, 25, 25);
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.title img {
+    display: block;
+    margin: auto;
+    width: 7%;
+}
+
+.one img {
+    display: block;
+    margin: auto;
+    width: 25%;
+    margin-top: 8%;
+    margin-bottom: 1%;
+}
+
+.wrapper-1 {
+    background-color: rgb(249, 249, 249);
+    padding-bottom: 5%;
+}
+
+.role p {
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+    margin: none;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.desc p {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+.desc span {
+    background-color: rgba(0, 168, 204, 0.1);
+}
+
+.desc-1 p {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: rgb(25, 25, 25);
+    margin-bottom: 8%;
+    margin-top: 8%;
+}
+
+.desc-1 span {
+    background-color: rgba(249, 76, 134, 0.1);
+}
+
+#no-top span, #no-top-1 span {
+    background-color: rgba(249, 76, 134, 0.2);
+}
+
+.desc-2 p {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: rgb(25, 25, 25);
+    padding-bottom: 5%;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.desc-2 span {
+    background-color: rgba(0, 126, 227, 0.3);
+}
+
+.desc-2 img {
+    display: block;
+    margin: auto;
+    padding: 19%;
+}
+
+.desc-1 img {
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#cent p {
+    text-align: center;
+}
+
+.desc-1 li {
+    color: black;
+}
+
+.desc-1 ul {
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.title-3 p {
+    font-size: 34;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.title-2 p {
+    font-size: 34;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(25, 25, 25);
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+
+#one p {
+    padding-bottom: 0%;
+}
+
+#two {
+    text-align: center;
+}
+
+#des_pic img {
+    border-radius: 3px;
+}
+
+#two img {
+    margin-left: 3%;
+}
+
+#two img, #two p {
+    display: inline-block;
+}
+
+#three img {
+    margin-bottom: 15%;
+    display: block;
+    margin: auto;
+}
+
+.img-h {
+    margin-top: 7%;
+}
+
+.img-h img {
+    display: block;
+    margin: auto;
+    padding: 3%;
+}
+
+.wrapper-pwc {
+
+    padding-bottom: 3%;
+}
+
+.wrapper-2 {
+    background: #00A8CC;
+    background: -webkit-linear-gradient(to left, #00D2B3, #00A8CC);
+    background: linear-gradient(to left, #00D2B3, #00A8CC);
+}
+
+.wrapper-3 {
+    background: #007CE4;
+    background: -webkit-linear-gradient(to left, #00A8CC, #007CE4);
+    background: linear-gradient(to left, #00A8CC, #007CE4);
+    padding-bottom: 5%;
+}
+
+@media only screen and (max-width: 1023px) {
+
+ .desc-2 img {
+    padding: 0;
+    padding-top: 20%;
+ }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+    .desc-2 p, .desc-1 p, .title-1 p, .desc p {
+        font-size: 16px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
