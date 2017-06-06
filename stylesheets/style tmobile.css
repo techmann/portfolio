@@ -18,10 +18,12 @@ label:hover {
 }
 
 .title p {
-    font-size: 34;
-    font-weight: 500;
-    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+    text-align: left;
     color: white;
+    margin-bottom: 0;
 }
 
 #no-top p {
@@ -75,12 +77,13 @@ label:hover {
 }
 
 .role p {
-    font-size: 22px;
-    font-weight: 300;
-    text-align: center;
-    margin: none;
-    margin-bottom: 5%;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
     color: white;
+    margin-bottom: 200px;
+    margin-top: 0;
+    font-family: 'Arimo', sans-serif;
 }
 
 .desc p {
@@ -89,7 +92,7 @@ label:hover {
     text-align: left;
     color: white;
     margin-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
 }
 
 .desc span {
@@ -165,7 +168,7 @@ label:hover {
 .title-2 p {
     font-size: 34;
     font-weight: 500;
-    text-align: center;
+    text-align: left;
     color: rgb(25, 25, 25);
     margin-top: 8%;
     margin-bottom: 8%;
@@ -177,7 +180,7 @@ label:hover {
 }
 
 #two {
-    text-align: center;
+    text-align: left;
 }
 
 #des_pic img {

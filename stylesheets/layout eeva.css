@@ -20,10 +20,18 @@
     margin-bottom: 8%;
 }
 
+.desc-5 img {
+	margin-bottom: 30px;
+}
+
 .desc p, .desc-1 p, .desc-2 p, .desc-4 p, .desc-side p,
 .desc-4 p, .desc-5 p, .desc-6 p, .desc-7 p {
 	font-size: 16px;
-	padding: 4%;
+	padding: 1%;
+}
+
+.desc-4 p {
+	margin-bottom: 30px;
 }
 
 .desc-4 li {
@@ -33,6 +41,7 @@
 #gutter p {
 	padding-left: 1%;
 	padding-right: 1%;
+	margin-bottom: 30px;
 }
 
 #pics img {
@@ -48,6 +57,10 @@
 
 #quote img {
 	height: 300px;
+}
+
+#proto {
+	padding: 0;
 }
 
 }

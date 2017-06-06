@@ -20,4 +20,26 @@
 		margin-top: 10%;
 	}
 
+	#header p {
+		font-size: 54px;
+	}
+
+	.desc-vid {
+		margin-bottom: 5%;
+	}
+
+	#pics p {
+		margin-top: 5%;
+	}
+
+	#pics img {
+		margin: auto;
+		display: block;
+		margin-bottom: 5%;
+	}
+
+	.live p {
+		margin-bottom: 10%;
+	}
+
 }
