@@ -279,6 +279,10 @@ a {
     color: #0077c5;
 }
 
+#tmo-bg {
+    background-color: #E20074;
+}
+
 .phone {
     width: 202px;
     height: 380px;
