@@ -280,11 +280,11 @@ a {
 }
 
 #tmo-btn a:hover {
-    color: #0077c5;
+    color: #000;
 }
 
 #tmo-bg {
-    background-color: #000;
+    background-color: #e20074;
 }
 
 .phone {
