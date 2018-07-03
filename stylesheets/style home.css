@@ -279,8 +279,12 @@ a {
     color: #0077c5;
 }
 
+#tmo-btn a:hover {
+    color: #0077c5;
+}
+
 #tmo-bg {
-    background-color: #E20074;
+    background-color: #000;
 }
 
 .phone {
