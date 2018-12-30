@@ -164,8 +164,7 @@ a {
 }
 
 .nav a:hover {
-    color: #1CD8D2;
-    font-weight: 300;
+    color: #333;
 }
 
 #title-1 {
