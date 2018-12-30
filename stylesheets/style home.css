@@ -7,10 +7,13 @@ body {
 
 body p {
     font-size: 18px;
-    color: #333;
+    color: rgb(77, 77, 77);
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    padding: 1%;
+    font-weight: 400;
+}
+
+#current {
+    background-color: #fafafb;
 }
 
 a {
@@ -22,15 +25,34 @@ a {
     margin-bottom: 5%;
 }
 
+.intro {
+    margin-top: 50px;
+}
+
+.azure {
+    display: inline-block;
+    margin-top: 32px;
+}
+
+.azure img {
+    display: inline-block;
+}
+
 /*.home-text, .options {
     width: 50%;
     margin-left: 10%;
     margin-right: 5%;
 }*/
 
-.home-text p {
+.home-text p, .azure p {
     margin: 0;
-    color: #333;
+    color: rgb(77, 77, 77);
+}
+
+.azure p {
+    display: inline-block;
+    float: left;
+    margin-top: 8px;
 }
 
 .options {
@@ -41,20 +63,20 @@ a {
 .options p {
     font-size: 18px;
     margin: 0;
-    padding: 1%;
     padding-top: 0;
     padding-bottom: 0%;
 }
 
 #brands-bg {
 /*    margin-left: 10%;*/
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 48px;
+    margin-bottom: 48px;
     width: 100%;
 }
 
 #brands-bg p {
-    margin-bottom: 0;
+    margin-bottom: 8px;
+    font-size: 16px;
 }
 
 #brands-bg img {
@@ -134,7 +156,11 @@ a {
 
 .nav a {
     color: #8D8D8D;
-    font-weight: 300;
+    font-weight: 400;
+}
+
+#top {
+    margin-bottom: 80px;
 }
 
 .nav a:hover {
@@ -143,7 +169,7 @@ a {
 }
 
 #title-1 {
-    padding-top: 30px;
+    padding-top: 8px;
 }
 
 #title-1 span {
@@ -151,11 +177,10 @@ a {
 }
 
 #title p {
-    font-size: 34px;
-    font-weight: 300;
+    font-size: 30px;
+    font-weight: 400;
     color: #333;
-    padding: 1%;
-    margin-top: 50px;
+    margin-top: 16px;
     margin-bottom: 0;
 }
 

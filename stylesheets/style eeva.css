@@ -4,6 +4,10 @@
     color: #00A5D4;
 }
 
+.nav a {
+    color: #fff;
+}
+
 label:hover {
     color: #00A5D4;
 }

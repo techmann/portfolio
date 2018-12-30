@@ -30,6 +30,20 @@ body p {
     text-decoration: none;
 }
 
+.logo {
+    position: relative;
+    height: 80px;
+    width: 40px;
+    display: inline-block;
+    float: left;
+}
+
+.logo a {
+    font-family: 'Rock Salt', serif;
+    font-size: 18px;
+    line-height: 80px;
+}
+
 .nav a:hover {
     color: #C72F79;
 }
@@ -48,10 +62,6 @@ label:hover {
 
 .title {
     margin-top: 15%;
-}
-
-.personas img {
-    
 }
 
 .title p {

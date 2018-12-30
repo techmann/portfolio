@@ -3,12 +3,28 @@
     background-color: #E5E8EB;
 }
 
+.nav a {
+    color: #444;
+}
+
 .nav-links a, .nav-links label {
     color: #444;
 }
 
 .nav-links a:hover, .nav-links label:hover {
     color: #E20075;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.info-box {
+    margin-top: 100px;
+    margin-bottom: 170px;
 }
 
 #pie img {
@@ -18,7 +34,7 @@
 }
 
 #pie {
-    margin-bottom: 500px;
+    margin-bottom: 300px;
 }
 
 #pie h2 {
@@ -31,7 +47,7 @@
 }
 
 #flow {
-    margin-bottom: 400px;
+    margin-bottom: 300px;
 }
 
 #research {
